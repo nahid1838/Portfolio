@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Developer Portfolio project placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b16"/>
+      <stop offset="100%" stop-color="#12121f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="600" cy="200" r="230" fill="#8b5cf6" opacity="0.15" filter="url(#blur)"/>
+  <circle cx="180" cy="560" r="190" fill="#ec4899" opacity="0.12" filter="url(#blur)"/>
+  <circle cx="1020" cy="560" r="190" fill="#22d3ee" opacity="0.12" filter="url(#blur)"/>
+
+  <!-- circular photo placeholder with gradient ring -->
+  <circle cx="600" cy="300" r="150" fill="none" stroke="url(#accent)" stroke-width="12"/>
+  <circle cx="600" cy="300" r="132" fill="#0d0d18"/>
+  <circle cx="600" cy="266" r="44" fill="#26263a"/>
+  <path d="M520 400 a80 80 0 0 1 160 0 Z" fill="#26263a"/>
+
+  <g fill="#26263a">
+    <rect x="380" y="500" width="440" height="18" rx="9"/>
+    <rect x="440" y="540" width="320" height="14" rx="7"/>
+  </g>
+
+  <g>
+    <rect x="430" y="590" width="150" height="46" rx="23" fill="url(#accent)"/>
+    <rect x="620" y="590" width="150" height="46" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+  </g>
+
+  <text x="600" y="700" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" fill="#9a9ab2">Developer Portfolio · placeholder</text>
+</svg>
