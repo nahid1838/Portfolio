@@ -37,7 +37,7 @@ const contactCards = [
  */
 export default function Contact() {
   return (
-    <section id="contact" className="relative py-24 sm:py-32">
+    <section id="contact" className="relative overflow-x-clip py-24 sm:py-32">
       <div className="glow-blob left-1/2 top-1/4 h-[420px] w-[420px] -translate-x-1/2 bg-accent-violet/12" />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

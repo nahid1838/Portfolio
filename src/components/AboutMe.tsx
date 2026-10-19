@@ -9,7 +9,7 @@ import { about } from "@/data/site";
  */
 export default function AboutMe() {
   return (
-    <section id="about" className="relative py-24 sm:py-32">
+    <section id="about" className="relative overflow-x-clip py-24 sm:py-32">
       <div className="glow-blob left-[10%] top-1/3 h-[360px] w-[360px] bg-accent-violet/10" />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

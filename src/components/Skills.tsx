@@ -19,7 +19,7 @@ const skillCount = skillCategories.reduce(
  */
 export default function Skills() {
   return (
-    <section id="skills" className="relative py-24 sm:py-32">
+    <section id="skills" className="relative overflow-x-clip py-24 sm:py-32">
       <div className="glow-blob right-[5%] top-1/4 h-[380px] w-[380px] bg-accent-cyan/10" />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

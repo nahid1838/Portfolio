@@ -9,7 +9,7 @@ import { projects } from "@/data/projects";
  */
 export default function Projects() {
   return (
-    <section id="projects" className="relative py-24 sm:py-32">
+    <section id="projects" className="relative overflow-x-clip py-24 sm:py-32">
       <div className="glow-blob left-[0%] top-1/3 h-[400px] w-[400px] bg-accent-pink/10" />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
