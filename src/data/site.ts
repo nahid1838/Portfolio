@@ -63,10 +63,6 @@ export const about = {
       text: "I enjoy crafting clean, responsive interfaces and connecting them to reliable backends. I care about details like readable code, smooth interactions and a clear structure, and I like solving problems one step at a time.",
     },
     {
-      heading: "Beyond Code",
-      text: "Outside programming, I'm interested in web design and visual aesthetics, and I enjoy making cartoon-style video content. Both keep me creative and help me think more visually when I design websites.",
-    },
-    {
       heading: "My Goal",
       text: "I'm aiming to grow into a professional full stack developer and contribute to real-world products. I'm open to internships, junior developer roles and freelance projects.",
     },

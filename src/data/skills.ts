@@ -1,8 +1,11 @@
+import type { TechIconName } from "@/components/TechIcons";
+
 /**
  * SKILLS DATA
  * --------------------------------------------------
  * Categories and skills with a proficiency level (0-100).
  * The level drives the animated progress bar.
+ * Also holds the technology logo list used by the tech grid.
  * Adjust any level to taste — content from info.txt.
  */
 
@@ -68,4 +71,49 @@ export const skillCategories: SkillCategory[] = [
       { name: "AI-assisted development", level: 88 },
     ],
   },
+];
+
+export type Technology = {
+  /** Display name on the tech card */
+  name: string;
+  /** Key into the `techIcons` map (see src/components/TechIcons.tsx) */
+  icon: TechIconName;
+};
+
+/**
+ * TECHNOLOGIES
+ * --------------------------------------------------
+ * Compact logo grid shown in the right column of the Skills
+ * section. Every entry is a real technology from info.txt and
+ * `icon` must be a valid key exported by TechIcons.tsx.
+ */
+export const technologies: Technology[] = [
+  // Frontend
+  { name: "HTML5", icon: "html5" },
+  { name: "CSS3", icon: "css3" },
+  { name: "Tailwind CSS", icon: "tailwindcss" },
+  { name: "DaisyUI", icon: "daisyui" },
+  { name: "JavaScript", icon: "javascript" },
+  { name: "TypeScript", icon: "typescript" },
+  { name: "React.js", icon: "react" },
+  { name: "Next.js", icon: "nextdotjs" },
+  // Backend
+  { name: "Node.js", icon: "nodedotjs" },
+  { name: "Express.js", icon: "express" },
+  { name: "REST API", icon: "restapi" },
+  { name: "Better Auth", icon: "betterauth" },
+  { name: "JWT", icon: "jwt" },
+  // Database
+  { name: "MongoDB", icon: "mongodb" },
+  { name: "Mongoose", icon: "mongoose" },
+  // Tools & platforms
+  { name: "Git", icon: "git" },
+  { name: "GitHub", icon: "github" },
+  { name: "VS Code", icon: "vscode" },
+  { name: "HeroUI", icon: "heroui" },
+  { name: "Shadcn", icon: "shadcn" },
+  { name: "Vercel", icon: "vercel" },
+  { name: "Postman", icon: "postman" },
+  { name: "Firebase", icon: "firebase" },
+  { name: "AI-assisted dev", icon: "ai" },
 ];
